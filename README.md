@@ -1,8 +1,8 @@
 Nginx compile
 ================
-Get the latest stable nginx package http://nginx.org/en/linux_packages.html
+Get the latest stable nginx package http://nginx.org/en/linux_packages.html  
+for ubuntu
 #### Pre compile
-##### Debian/Ubuntu
 ```
 sudo add-apt-repository ppa:nginx/stable
 sudo apt-get update
@@ -13,12 +13,6 @@ apt-get install build-essential
 apt-get install libtool
 sudo apt-get build-dep nginx
 
-```
-##### RHEL/CentOS
-```
-yum -y install bash-completion vim net-tools bind-utils wget screen
-# add the yum repo
-yum insstall nginx
 ```
 
 #### Compile
@@ -43,3 +37,9 @@ cd ./nginx/nginx
 
 make && make install
 ```  
+#### Replace the nginx bin
+```
+# backup
+cp /usr/sbin/nginx /usr/sbin/nginx.bak
+# replace 
+ln -f /usr/share/nginx/sbin/nginx /usr/sbin/nginx
