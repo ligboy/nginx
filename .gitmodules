@@ -52,4 +52,4 @@
 [submodule "nginx-releases"]
 	path = nginx
 	url = https://github.com/nginx/nginx-releases.git
-	branch = v1.8.0
+	branch = nginx-1.8
