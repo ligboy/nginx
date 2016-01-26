@@ -1,0 +1,55 @@
+[submodule "modules/echo-nginx-module"]
+	path = modules/echo-nginx-module
+	url = https://github.com/openresty/echo-nginx-module.git
+        branch = v0.58
+[submodule "modules/headers-more-nginx-module"]
+	path = modules/headers-more-nginx-module
+	url = https://github.com/openresty/headers-more-nginx-module.git
+        branch = v0.29
+[submodule "modules/ngx_http_substitutions_filter_module"]
+	path = modules/ngx_http_substitutions_filter_module
+	url = git://github.com/yaoweibin/ngx_http_substitutions_filter_module.git
+        branch = v0.6.4
+[submodule "modules/ngx_http_google_filter_module"]
+	path = modules/ngx_http_google_filter_module
+	url = https://github.com/cuber/ngx_http_google_filter_module.git
+        branch = 0.2.0
+[submodule "modules/ngx_http_auth_pam_module"]
+	path = modules/ngx_http_auth_pam_module
+	url = https://github.com/stogh/ngx_http_auth_pam_module.git
+        branch = v1.4
+[submodule "modules/ngx-fancyindex"]
+	path = modules/ngx-fancyindex
+	url = https://github.com/aperezdc/ngx-fancyindex.git
+        branch = v0.3.5
+[submodule "modules/ngx_devel_kit"]
+	path = modules/ngx_devel_kit
+	url = https://github.com/simpl/ngx_devel_kit.git
+        branch = v0.2.19
+[submodule "modules/ngx_cache_purge"]
+	path = modules/ngx_cache_purge
+	url = https://github.com/FRiCKLE/ngx_cache_purge.git
+        branch = 2.3
+[submodule "modules/nginx-upstream-fair"]
+	path = modules/nginx-upstream-fair
+	url = https://github.com/gnosek/nginx-upstream-fair.git
+[submodule "modules/nginx-upload-progress-module"]
+	path = modules/nginx-upload-progress-module
+	url = https://github.com/masterzen/nginx-upload-progress-module.git
+        branch = v0.9.1
+[submodule "modules/nginx-push-stream-module"]
+	path = modules/nginx-push-stream-module
+	url = https://github.com/wandenberg/nginx-push-stream-module.git
+        branch = 0.5.1
+[submodule "modules/nginx-dav-ext-module"]
+	path = modules/nginx-dav-ext-module
+	url = https://github.com/arut/nginx-dav-ext-module.git
+        branch = v0.0.3
+[submodule "modules/lua-nginx-module"]
+	path = modules/lua-nginx-module
+	url = https://github.com/openresty/lua-nginx-module.git
+        branch = v0.10.0
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/nginx/nginx.git
+	branch = release-1.8.0
